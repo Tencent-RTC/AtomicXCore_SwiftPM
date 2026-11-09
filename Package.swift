@@ -9,7 +9,7 @@ let package = Package(
                  targets: ["AtomicXCoreBinary", "AtomicXCoreDeps"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM.git", from: "9.0.7652"),
+        .package(url: "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM.git", from: "9.1.7824"),
         .package(url: "https://github.com/Tencent-RTC/Professional_SwiftPM.git", from: "13.5.21355")
     ],
     targets: [
@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "AtomicXCoreDeps",
             dependencies: [
-                .product(name: "Chat_SDK_SwiftPM", package: "Chat_SDK_SwiftPM"),
+                .product(name: "TXIMSDK_Plus_iOS_XCFramework", package: "Chat_SDK_SwiftPM"),
                 .product(name: "Professional_SwiftPM", package: "Professional_SwiftPM")
             ],
             path: "Sources/Deps",
