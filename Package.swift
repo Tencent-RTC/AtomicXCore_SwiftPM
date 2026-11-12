@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AtomicXCoreBinary",
-            url: "https://liteav.sdk.qcloud.com/app/tuikit/download/release/5.3/AtomicXCore_iOS_5.3.0.14_SDK.zip",
-            checksum: "55cc0bbb5a88239302d647a731f59fb53e151670b5d3e7d09b9df5fe39fbeae5"
+            url: "https://liteav.sdk.qcloud.com/app/tuikit/download/release/5.3/AtomicXCore_iOS_5.3.2.0_SDK.zip",
+            checksum: "f7495542bbffb79440cbb74d2ec9f2ea78ecbbdac20a661f227631ef0b3b28e0"
         ),
         .target(
             name: "AtomicXCoreDeps",
